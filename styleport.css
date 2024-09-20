@@ -14,6 +14,8 @@ body {
   min-height: 100vh;
 }
 
+/* Parte 2 */
+
 .header {
   display: flex;
   width: 100%;
@@ -38,55 +40,76 @@ body {
 }
 
 .About {
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.profile_img {
+  width: 332px;
+  height: 333px;
+  border-radius: 50%;
+  background-color: red;
+  box-shadow: 4px 9px 22.3px -1px rgba(0, 0, 0, 0.25);
+}
+.Text_About {
+  color: #ffffff;
+  font-family: Inconsolata;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
+}
+.Text_About h1 {
+  display: flex;
+  flex-direction: column;
   position: relative;
   color: #fff;
   font-family: "Source Sans 3", sans-serif;
-  font-size: 35px;
-  top: -350px;
-  text-align: center;
-}
-
-.Text_About {
-  color: #fff;
-  font-family: Inconsolata;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: normal;
+  font-size: 60px;
+  text-align: left;
 }
 
 /* Parte 2 */
 .Tec_Hab {
-  align-self: stretch;
-  color: #fff;
-  font-family: "Source Sans 3", sans-serif;
-}
-
-.Text_TecHab {
-  color: #fff;
+  color: #ffffff;
   font-family: Inconsolata;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
   line-height: normal;
+}
+
+.Text_TecHab h1 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #fff;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 60px;
+  text-align: left;
 }
 
 /* Parte 3 */
 .Projetos {
-  align-self: stretch;
-  color: #fff;
-  font-family: "Source Sans 3", sans-serif;
-}
-
-.Text_projetos {
-  color: #fff;
+  color: #ffffff;
   font-family: Inconsolata;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
   line-height: normal;
 }
 
-/* Estilos responsivos */
+.Text_projetos h1 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #fff;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 60px;
+  text-align: left;
+}
+
+/* Responsividade */
 @media screen and (max-width: 768px) {
   .img_container {
     height: 300px;
